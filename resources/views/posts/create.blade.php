@@ -7,27 +7,27 @@
    {!! Form::open(['action' => 'PostsController@store','method' => 'POST']) !!}
     <div class="form-group">
         {{Form::label('name', 'Name')}}
-        {{Form::text('title','',['class' => 'form-control','placeholder'=>'Full Name'])}}
+        {{Form::text('name','',['class' => 'form-control','placeholder'=>'Full Name'])}}
     </div>
     <div class="form-group">
         {{Form::label('age', 'Age')}}
-        {{Form::text('title','',['class' => 'form-control','placeholder'=>'Age'])}}
+        {{Form::text('age','',['class' => 'form-control','placeholder'=>'Age'])}}
     </div>
     <div class="form-group">
-        {{Form::label('id_number', 'Id_number')}}
-        {{Form::text('title','',['class' => 'form-control','placeholder'=>'ID number'])}}
+        {{Form::label('id number', 'ID number')}}
+        {{Form::text('id_number','',['class' => 'form-control','placeholder'=>'ID number'])}}
     </div>
     <div class="form-group">
         {{Form::label('ward', 'Ward')}}
-        {{Form::text('title','',['class' => 'form-control','placeholder'=>'Ward'])}}
+        {{Form::text('ward','',['class' => 'form-control','placeholder'=>'Ward'])}}
     </div>
     <div class="form-group">
         {{Form::label('voting', 'Voting')}}
-        {{Form::text('title','',['class' => 'form-control','placeholder'=>'Voting Centre'])}}
+        {{Form::text('voting','',['class' => 'form-control','placeholder'=>'Voting Centre'])}}
     </div>
     <div class="form-group">
         {{Form::label('group', 'Group')}}
-        {{Form::text('title','',['class' => 'form-control','placeholder'=>'Group Representing'])}}
+        {{Form::text('group','',['class' => 'form-control','placeholder'=>'Group Representing'])}}
     </div>
     {{-- <div class="form-group">
             {{Form::label('body', 'Body')}}
