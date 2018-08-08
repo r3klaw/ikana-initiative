@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 
 @section('content')
@@ -36,4 +36,4 @@
         {{form::hidden('_method', 'PUT')}}
         {{form::submit('Submit',['class'=>'btn btn-primary'])}}
 {!! Form::close() !!}
-@endsection
+@endsection --}}

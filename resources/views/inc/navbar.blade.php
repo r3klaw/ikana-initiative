@@ -21,7 +21,7 @@
                             <a class="nav-link" href="/services">services</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="/posts">Blog</a>
+                              <a class="nav-link" href="/posts">posts</a>
                             </li>
                         </ul>
                             <ul class="nav navbar-nav navbar-right">

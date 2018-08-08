@@ -14,9 +14,9 @@
                         </div>
                     @endif
                     <a class="btn btn-primary" href="/posts/create">Create Post</a>
-                    <h3>Your blog Post</h3>
+                    <h3>Your Post</h3>
                     @if(count($posts) > 0)
-                    <table class="table table-striped">
+                    {{-- <table class="table table-striped">
                         <tr>
                             <th>Tittle</th>
                             <th></th>
@@ -34,7 +34,7 @@
                                 </td>
                             </tr>
                         @endforeach
-                    </table>
+                    </table> --}}
                     @else
                     <p>You have no post!!</p>
                     @endif
